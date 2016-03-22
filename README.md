@@ -1,3 +1,7 @@
+# NOTE: FORKED BY BINDER
+
+We needed a .NET45/Non-PCL version of unirest-net, hence the fork.
+
 # Unirest for .Net
 
 Unirest is a set of lightweight HTTP libraries available in multiple languages.
