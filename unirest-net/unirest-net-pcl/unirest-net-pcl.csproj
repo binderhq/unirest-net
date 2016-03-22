@@ -36,21 +36,21 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>unirest-net-pcl.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\unirest-net-pcl.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\http\HttpClientHelper.cs" />
-    <Compile Include="src\http\HttpResponse.cs" />
-    <Compile Include="src\http\Unirest.cs" />
-    <Compile Include="src\request\HttpRequest.cs" />
+    <Compile Include="..\src\http\HttpClientHelper.cs" />
+    <Compile Include="..\src\http\HttpResponse.cs" />
+    <Compile Include="..\src\http\Unirest.cs" />
+    <Compile Include="..\src\request\HttpRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="unirest-net-pcl.snk" />
+    <None Include="..\unirest-net-pcl.snk" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Threading.Tasks">
