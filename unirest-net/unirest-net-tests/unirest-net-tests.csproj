@@ -94,7 +94,7 @@
     <Compile Include="src\request\HttpRequestTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\unirest-net\unirest-net.csproj">
+    <ProjectReference Include="..\unirest-net-pcl\unirest-net-pcl.csproj">
       <Project>{BB1927F2-4FC7-4520-8680-49C0245E05E0}</Project>
       <Name>unirest-net</Name>
     </ProjectReference>
